@@ -51,10 +51,10 @@ namespace tpmodul4_1302223090
         };
         public string GetKodePos(NamaDaerah namaDaerah)
         {
-            int index = (int)namaDaerah;
-            if (index >= 0 && index < kodePos.Length)
+            int i = (int)namaDaerah;
+            if (i >= 0 && i < kodePos.Length)
             {
-                return kodePos[index];
+                return kodePos[i];
             }
             else
             {

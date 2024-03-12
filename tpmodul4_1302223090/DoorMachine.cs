@@ -8,6 +8,7 @@ namespace tpmodul4_1302223090
 {
     internal class DoorMachine
     {
+        public enum State { terkunci, terbuka};
     }
 
 }
